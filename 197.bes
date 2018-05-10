@@ -11,7 +11,7 @@
 <HR>
 
 <P>After the system scan has been completed you can click on the following link to see the actual values configured on each system: <?relevance links of bes fixlets whose (analysis flag of it and mime field "X-Fixlet-SCM-Analysis-ID" of it = "ed1127ad-1f0d-23ff-5739-47f60f09d73d" AND (if (custom site flag of site of current fixlet) then name of site of it = name of site of current fixlet else id of site of it = id of site of current fixlet) of it)?></P></TD></TR></TBODY></TABLE></DIV>]]></Description>
-		<Relevance><![CDATA[not exists 1 whose (exists (concatenation ", " of (it as string) of (it >= (it as integer) of ("20")) of password history length of security database) whose (number of substrings separated by ", " whose (it is not "") of it > 0 and number of substrings separated by ", " whose (it is not "") whose (it as boolean is False) of it = 0))]]></Relevance>
+		<Relevance><![CDATA[not exists 1 whose (exists (concatenation ", " of (it as string) of (it >= (it as integer) of ("10")) of password history length of security database) whose (number of substrings separated by ", " whose (it is not "") of it > 0 and number of substrings separated by ", " whose (it is not "") whose (it as boolean is False) of it = 0))]]></Relevance>
 		<Category>Password policy</Category>
 		<Source>Maxim's Hardening Guide</Source>
 		<SourceID>3-1</SourceID>
